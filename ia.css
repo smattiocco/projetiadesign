@@ -389,10 +389,53 @@ body {
 
 }
 
+
+#source .container {
+  text-align: center;
+}
+
+#source .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; 
+  margin-top: 20px; 
+}
+
+#source .col-sm {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
 .imgicone {
   max-width: 100px;
+  max-height: 100px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
+
+
+
+
+
+#save a button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+#save a button:hover {
+  background-color: #0056b3; 
+}
+
+
+
+
 
 
 
